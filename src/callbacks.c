@@ -1,5 +1,5 @@
 /* 
-   Copyright (C) 2002 Rogério Bastos. All rights reserved.
+   Copyright (C) 2002 Rogï¿½rio Bastos. All rights reserved.
 
    This program is free software; you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by
@@ -89,8 +89,8 @@ on_about_activate                      (GtkMenuItem     *menuitem,
 {
   GtkWidget *about;
   const gchar *authors[] = {
-		  "Rogério Villela de Lima Bastos \"Epic\" (rogbas@terra.com.br)", NULL };
-  about = gnome_about_new ("Epilog", VERSION, "Copyright 2002 Rogério Bastos.", (const gchar **) authors, "Multi-file logging program with key word coloring", NULL);
+		  "Rogï¿½rio Villela de Lima Bastos \"Epic\" (rogbas@gmail.com)", NULL };
+  about = gnome_about_new ("Epilog", VERSION, "Copyright 2002 Rogï¿½rio Bastos.", (const gchar **) authors, "Multi-file logging program with key word coloring", NULL);
   gtk_widget_show (about);
 
  
